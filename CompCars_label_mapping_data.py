@@ -9,8 +9,8 @@ import os
 # Load .mat file
 matrix = loadmat("./CompCar_label/make_model_name.mat")
 
-dataset_path = 'C:/Users/qisens-n_hyunwoo/Desktop/image'
-output_path = 'C:/Users/qisens-n_hyunwoo/Desktop\project/Data_Preprocess/CompCar_label/output/'
+dataset_path = '/home/hyunwoo/Desktop/CompCar/dataset/data/image'
+output_path = '/home/hyunwoo/Desktop/Untitled/data_output/'
 
 make_names = []
 model_names = []
@@ -98,21 +98,41 @@ def print_dir_hierarchy():
 def modify_dir_name():
     # root 는 상위폴더 이름
     # dirs 는 root 폴더의 (상위폴더의) 하위폴더 이름들을 list 로 받음
-    for root, dirs, files in os.walk(dataset_path):
-        level = root.replace(dataset_path, '').count(os.sep)
+    # topdown 옵션을 False 로 줌으로써 하위 디렉토리먼저 반환
+    for root, dirs, _ in os.walk('/home/hyunwoo/Desktop/Untitled/data_output', topdown=False):
+        level = root.replace('/home/hyunwoo/Desktop/Untitled/data_output', '').count(os.sep)
 
-        # depth 가 1 일 때
+        if level == 3:
+            model_path = os.path.abspath(os.path.join(root, os.pardir))
+            make_path = os.path.abspath(os.path.join(model_path, os.pardir))
+
+            for i in os.listdir(model_path):
+                # print('============== 연식 =================')
+                # print(i)
+                # print('os.listdir(model_path) : ', os.listdir(model_path))
+                # print('original : ', model_path + '/' + i)
+                # print('modified : ', model_path + '/' + make_names[int(os.path.basename(make_path)) - 1] + '_' + model_names[int(os.path.basename(model_path)) - 1] + '_' + i)
+                move(model_path + '/' + i, model_path + '/' + make_names[int(os.path.basename(make_path)) - 1] + '_' + model_names[int(os.path.basename(model_path)) - 1] + '_' + i)
+
+    for root, dirs, _ in os.walk('/home/hyunwoo/Desktop/Untitled/data_output', topdown=False):
+        level = root.replace('/home/hyunwoo/Desktop/Untitled/data_output', '').count(os.sep)
+
+        if level == 3:
+            model_path = os.path.abspath(os.path.join(root, os.pardir))
+            make_path = os.path.abspath(os.path.join(model_path, os.pardir))
+
+            for i in os.listdir(make_path):
+                # print('============== 모델명 =================')
+                # print('os.listdir(make_path) : ', os.listdir(make_path))
+                # print(i)
+                # print(make_path + '/' + i)
+                # print(make_path + '/' + model_names[int(i) - 1])
+                move(make_path + '/' + i, make_path + '/' + model_names[int(i) - 1])
+
+    for root, dirs, files in os.walk('/home/hyunwoo/Desktop/Untitled/data_output'):
+        level = root.replace('/home/hyunwoo/Desktop/Untitled/data_output', '').count(os.sep)
+
         if level == 1:
-            print(os.path.basename(root))
-            print(len(dirs))
-
-            # 상위 디렉토리 이름부터 바뀌면 안되므로 하위 디렉토리 이름부터 변경
-            for i in range(len(dirs)):
-                move(output_path + os.path.basename(root) + '/' + dirs[i],
-                     output_path + os.path.basename(root) + '/' + model_names[int(dirs[i]) - 1])
-                print(output_path + os.path.basename(root) + '/' + model_names[int(dirs[i]) - 1])
-
-            # 하위 디렉토리 이름 변경이 끝난 후 상위 디렉토리 이름 변경
             move(output_path + os.path.basename(root), output_path + make_names[int(os.path.basename(root)) - 1])
 
 
