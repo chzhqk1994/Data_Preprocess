@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f01ccb0b-83e7-44bb-b1cf-fd84dc7807fd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Data_Preprocess.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Data_Preprocess.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompCars_label_mapping_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/CompCars_label_mapping_data.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CompCars_lable_mapping_data.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CompCars_label_mapping_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="37" column="60" selection-start-line="36" selection-start-column="13" selection-end-line="37" selection-end-column="60" />
+            <state relative-caret-position="172">
+              <caret line="105" column="71" lean-forward="true" selection-start-line="105" selection-start-column="71" selection-end-line="105" selection-end-column="71" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -26,15 +24,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sv_separate_day_night.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gps_map.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+            <state relative-caret-position="210">
+              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <element signature="e#386#479#0" />
-                <element signature="e#1224#1604#0" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,6 +53,10 @@
       <find>output</find>
       <find>output1</find>
       <find>image_dir</find>
+      <find>552</find>
+      <find>550</find>
+      <find>132</find>
+      <find>154</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -75,6 +75,8 @@
         <option value="$PROJECT_DIR$/CompCars_lable_mapping_data.py" />
         <option value="$PROJECT_DIR$/sv_CompCars_label_mappding_data.py" />
         <option value="$PROJECT_DIR$/sv_separate_day_night.py" />
+        <option value="$PROJECT_DIR$/gps_map.py" />
+        <option value="$PROJECT_DIR$/CompCars_label_mapping_data.py" />
       </list>
     </option>
   </component>
@@ -90,6 +92,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,7 +109,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -134,7 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sv_separate_day_night">
+  <component name="RunManager" selected="Python.CompCars_lable_mapping_data">
     <configuration name="CompCars_lable_mapping" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Data_Preprocess" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,7 +179,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Rotate_Image" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="gps_map" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Data_Preprocess" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -189,7 +191,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Rotate_Image.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gps_map.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -241,19 +243,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Rotate_Image" />
       <item itemvalue="Python.CompCars_lable_mapping" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.CompCars_lable_mapping_data" />
       <item itemvalue="Python.sv_separate_day_night" />
+      <item itemvalue="Python.gps_map" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sv_separate_day_night" />
         <item itemvalue="Python.CompCars_lable_mapping_data" />
+        <item itemvalue="Python.gps_map" />
+        <item itemvalue="Python.sv_separate_day_night" />
         <item itemvalue="Python.CompCars_lable_mapping" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.Rotate_Image" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +273,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -364,24 +366,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CompCars_lable_mapping_data.py">
+    <entry file="file://$PROJECT_DIR$/CompCars_lable_mapping_data.py" />
+    <entry file="file://$PROJECT_DIR$/sv_separate_day_night.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="37" column="60" selection-start-line="36" selection-start-column="13" selection-end-line="37" selection-end-column="60" />
+        <state relative-caret-position="-55">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sv_separate_day_night.py">
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/pymysql/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        <state relative-caret-position="205">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gps_map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#386#479#0" />
-            <element signature="e#1224#1604#0" />
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CompCars_label_mapping_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="105" column="71" lean-forward="true" selection-start-line="105" selection-start-column="71" selection-end-line="105" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
