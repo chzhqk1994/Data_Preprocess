@@ -136,8 +136,22 @@ def modify_dir_name():
             move(output_path + os.path.basename(root), output_path + make_names[int(os.path.basename(root)) - 1])
 
 
+# 특정 디렉토리와 하위 파일들을 다른 디렉토리로 복사, 원본의 파일들은 그대로 있음
+def copy_bottom_dir_to_top():
+    copy_to_path = '/home/hyunwoo/Desktop/Untitled/temp'
+    for root, dirs, _ in os.walk(output_path):
+        level = root.replace(output_path, '').count(os.sep)
+
+        if level == 1:
+            print(dirs)
+            print(root)
+            print(output_path)
+            distutils.dir_util.copy_tree(root + '/', copy_to_path)
+
+
 if __name__ == '__main__':
     make_list('make_names', 'model_names')  # model_names : 163, make_names : 1711
     # print_dir_hierarchy()
-    copy_file_dir_hierarchy()
-    modify_dir_name()
+    # copy_file_dir_hierarchy()
+    # modify_dir_name()
+    copy_bottom_dir_to_top()

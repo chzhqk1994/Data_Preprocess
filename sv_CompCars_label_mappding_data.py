@@ -78,6 +78,8 @@ def make_list(label_type):
     print("len of model_names : ", len(model_names))
     print("")
 
+    return make_names, model_names
+
 
 def copy_file_dir_hierarchy():
     # 디렉토리를 통째로 복사, 이름이 겹치면 overwrite

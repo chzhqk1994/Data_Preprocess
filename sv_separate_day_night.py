@@ -4,12 +4,15 @@ import numpy as np
 import distutils
 from distutils import dir_util
 from shutil import copyfile
+from sv_CompCars_label_mappding_data import make_list
 
 test_image_dir = './CompCar_label/test_image/'
 
-dataset_path = '/home/hyunwoo/Desktop/Untitled/sv_output/'
+dataset_path = '/home/hyunwoo/Desktop/CompCar/dataset/sv_data/image/'
+# dataset_path = '/home/hyunwoo/Desktop/CompCar/dataset/sv_test/image/'
 # dataset_path = './CompCar_label/test_image/'
 output_path = '/home/hyunwoo/Desktop/Untitled/sv_time_output/'
+# output_path = '/home/hyunwoo/Desktop/CompCar/dataset/sv_test/output/'
 
 hist_list = []
 
@@ -94,8 +97,48 @@ def separate_time():
                 copyfile(dataset_path + str(os.path.basename(root))+ '/' + file[i], output_path + str(os.path.basename(root)) + '/night/' + file[i])
 
 
+def separate_time_and_model():
+    make_names, model_names = make_list('sv_make_model_name')
+    for root, dirs, file in os.walk(dataset_path):
+        # for i in range(len(file)):
+        print('root : ', len(file))
+        print('file length : ', len(file))
+        print('file length : ', len(file))
+        print('os.path.basename(root) : ', os.path.basename(root))
+
+        for i in range(len(file)):
+            path = root + '/' + file[i]
+
+            image = cv2.imread(path)
+            average = image.mean()
+            print('head : ', root)
+
+            if isinstance(int(os.path.basename(root)), int):
+
+                if average > threshold:
+                    print(root + '/day/' + file[i])
+                    print(dataset_path + str(os.path.basename(root)) + '/' + file[i])
+                    print(os.path.abspath(os.path.join(root, os.pardir)) + '/' + 'day/' + model_names[int(os.path.basename(root)) - 1] + '/' + file[i])
+                    print('=================================================================')
+                    if not os.path.exists(os.path.abspath(os.path.join(root, os.pardir)) + '/' + 'day/' + model_names[int(os.path.basename(root)) - 1] + '/'):
+                        os.makedirs(os.path.abspath(os.path.join(root, os.pardir)) + '/' + 'day/' + model_names[int(os.path.basename(root)) - 1] + '/')
+                    copyfile(dataset_path + str(os.path.basename(root)) + '/' + file[i], os.path.abspath(os.path.join(root, os.pardir)) + '/' + 'day/' + model_names[int(os.path.basename(root)) - 1] + '/' + file[i])
+
+                else:
+                    print(root + '/night/' + file[i])
+                    print(dataset_path + str(os.path.basename(root)) + '/' + file[i])
+                    print(os.path.abspath(os.path.join(root, os.pardir)) + '/' + 'day/' + model_names[int(os.path.basename(root)) - 1] + '/' + file[i])
+                    print('=================================================================')
+                    if not os.path.exists(os.path.abspath(os.path.join(root, os.pardir)) + '/' + 'night/' + model_names[int(os.path.basename(root)) - 1] + '/'):
+                        os.makedirs(os.path.abspath(os.path.join(root, os.pardir)) + '/' + 'night/' + model_names[int(os.path.basename(root)) - 1] + '/')
+                    copyfile(dataset_path + str(os.path.basename(root)) + '/' + file[i], os.path.abspath(os.path.join(root, os.pardir)) + '/' + 'night/' + model_names[int(os.path.basename(root)) - 1] + '/' + file[i])
+
+            else:
+                continue
+
 if __name__ == '__main__':
-    # copy_dir()
+    copy_dir()
     # show_histogram()
     # calculate_hist_mean()
-    separate_time()
+    # separate_time()
+    separate_time_and_model()
