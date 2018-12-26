@@ -42,6 +42,20 @@ def make_dir(label_type):
                 os.makedirs(output_path + str(idx) + make_names[idx])
 
 
+def save_list_to_file(make_list, model_list):
+    with open('make_labels.txt', 'w') as f:
+        for i in range(len(make_list)):
+            print(i, make_list[i])
+            f.write("%s %s\n" % (i + 1, make_list[i]))
+
+    with open('model_labels.txt', 'w') as f:
+        for i in range(len(model_list)):
+            print(i, model_list[i])
+            if str(model_list[i]) == '':
+                model_list[i] = 'unknown'
+            f.write("%s %s\n" % (i + 1, model_list[i]))
+
+
 def make_list(label_type, lable_type2):
     cnt = 0
 
@@ -151,7 +165,8 @@ def copy_bottom_dir_to_top():
 
 if __name__ == '__main__':
     make_list('make_names', 'model_names')  # model_names : 163, make_names : 1711
+    save_list_to_file(make_names, model_names)
     # print_dir_hierarchy()
     # copy_file_dir_hierarchy()
     # modify_dir_name()
-    copy_bottom_dir_to_top()
+    # copy_bottom_dir_to_top()
