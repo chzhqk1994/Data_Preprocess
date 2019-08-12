@@ -1,4 +1,7 @@
 venv/
-
+.idea/
+.DS_Store
 my_map.html
 *.html
+*.txt
+*.pbtxt
