@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f01ccb0b-83e7-44bb-b1cf-fd84dc7807fd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Data_Preprocess.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Data_Preprocess.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/make_labelmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/make_label/make_labelmap.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,40 +17,6 @@
     <SUITE FILE_PATH="coverage/Programming_exercise$separate_two_file_types.coverage" NAME="separate_two_file_types Coverage Results" MODIFIED="1565593077575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Programming_exercise$make_labelmap.coverage" NAME="make_labelmap Coverage Results" MODIFIED="1565593344074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/separate_two_file_types.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/make_labelmap.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -58,98 +24,31 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>#</find>
-      <find>save_dir</find>
-      <find>output_path</find>
-      <find>output</find>
-      <find>output1</find>
-      <find>image_dir</find>
-      <find>552</find>
-      <find>550</find>
-      <find>132</find>
-      <find>154</find>
-      <find>BWM</find>
-      <find>439374a1456969</find>
-      <find>6c5730eb35dbfc</find>
-      <find>list</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Rotate_Imge.py" />
-        <option value="$PROJECT_DIR$/Rotate_Image.py" />
-        <option value="$PROJECT_DIR$/remove_duplicate_file_in_two_directory.py" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/backup.py" />
-        <option value="$PROJECT_DIR$/CompCars_lable_mapping.py" />
-        <option value="$PROJECT_DIR$/CompCars_lable_mapping_data.py" />
-        <option value="$PROJECT_DIR$/sv_separate_day_night.py" />
-        <option value="$PROJECT_DIR$/sv_CompCars_label_mappding_data.py" />
-        <option value="$PROJECT_DIR$/sv_Pickup_by_modelname.py" />
-        <option value="$PROJECT_DIR$/import_caffe_model.py" />
-        <option value="$PROJECT_DIR$/model_labels.txt" />
-        <option value="$PROJECT_DIR$/make_labels.txt" />
-        <option value="$PROJECT_DIR$/modify_txt.py" />
-        <option value="$PROJECT_DIR$/CompCars_label_mapping_data.py" />
-        <option value="$PROJECT_DIR$/gps_map.py" />
-        <option value="$PROJECT_DIR$/parking_area_on_map.py" />
-        <option value="$PROJECT_DIR$/make_labelmap.py" />
-        <option value="$PROJECT_DIR$/separate_two_file_types.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="19" />
-    <option name="y" value="23" />
-    <option name="width" value="1421" />
-    <option name="height" value="822" />
-  </component>
+  <component name="ProjectId" id="1PUdHBuBsz7B0xFtouRWIldU7uU" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Programming_exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Programming_exercise" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/make_label" />
+      <recent name="C:\Users\qisens-n_hyunwoo\Desktop\project\Data_Preprocess\CompCar_label" />
+      <recent name="C:\Users\qisens-n_hyunwoo\Desktop\project\Data_Preprocess\CompCar_lable" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images/jeep" />
       <recent name="$PROJECT_DIR$/images/hyundai" />
       <recent name="$PROJECT_DIR$/images/benz" />
       <recent name="$PROJECT_DIR$/images/audi" />
       <recent name="$PROJECT_DIR$/CompCar_label" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\qisens-n_hyunwoo\Desktop\project\Data_Preprocess\CompCar_label" />
-      <recent name="C:\Users\qisens-n_hyunwoo\Desktop\project\Data_Preprocess\CompCar_lable" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -164,8 +63,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.make_labelmap">
-    <configuration name="gps_map" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.resize_dataset">
+    <configuration name="make_label_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Data_Preprocess" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,8 +76,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gps_map.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/make_label/make_xml_file_hardcoding.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,7 +98,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/make_labelmap.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/make_label/make_labelmap.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,7 +107,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="modify_txt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="make_xml_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Data_Preprocess" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,8 +119,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modify_txt.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/make_label/make_xml_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -231,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="parking_area_on_map" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="resize_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Data_Preprocess" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -243,8 +140,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parking_area_on_map.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/resize_dataset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,7 +149,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="separate_two_file_types" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Data_Preprocess" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -265,8 +161,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/separate_two_file_types.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -276,21 +171,31 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.modify_txt" />
-      <item itemvalue="Python.gps_map" />
-      <item itemvalue="Python.parking_area_on_map" />
       <item itemvalue="Python.make_labelmap" />
-      <item itemvalue="Python.separate_two_file_types" />
+      <item itemvalue="Python.make_label_file" />
+      <item itemvalue="Python.make_xml_file" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.resize_dataset" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.resize_dataset" />
+        <item itemvalue="Python.make_xml_file" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.make_label_file" />
         <item itemvalue="Python.make_labelmap" />
-        <item itemvalue="Python.separate_two_file_types" />
-        <item itemvalue="Python.parking_area_on_map" />
-        <item itemvalue="Python.gps_map" />
-        <item itemvalue="Python.modify_txt" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -309,208 +214,20 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="4208000" />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="822" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.3260274" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39863014" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.3260274" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32876712" />
-      <window_info anchor="right" id="Remote Host" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Data View" order="3" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python35/Lib/site-packages/scipy/io/matlab/mio.py" />
-    <entry file="file://$PROJECT_DIR$/test.py" />
-    <entry file="file://$PROJECT_DIR$/remove_duplicate_file_in_two_directory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backup.py" />
-    <entry file="file://$PROJECT_DIR$/Rotate_Image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CompCars_lable_mapping_data.py" />
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/pymysql/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/CompCar_label/attributes.txt" />
-    <entry file="file://$PROJECT_DIR$/sv_separate_day_night.py" />
-    <entry file="file://$PROJECT_DIR$/sv_Pickup_by_modelname.py" />
-    <entry file="file://$PROJECT_DIR$/import_caffe_model.py" />
-    <entry file="file://$PROJECT_DIR$/model_labels.txt" />
-    <entry file="file://$PROJECT_DIR$/make_labels.txt" />
-    <entry file="file://$PROJECT_DIR$/CompCar_label/train_make(copy).txt" />
-    <entry file="file://$PROJECT_DIR$/CompCar_label/train_make.txt" />
-    <entry file="file://$PROJECT_DIR$/train_make_output.txt" />
-    <entry file="file://$PROJECT_DIR$/classification/test.txt" />
-    <entry file="file://$PROJECT_DIR$/sv_CompCars_label_mappding_data.py" />
-    <entry file="file://$PROJECT_DIR$/CompCars_label_mapping_data.py" />
-    <entry file="file://$PROJECT_DIR$/modify_txt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="124" selection-start-line="10" selection-start-column="98" selection-end-line="10" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parking_area.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parking_area.html" />
-    <entry file="file://$PROJECT_DIR$/gps_map.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="71" lean-forward="true" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parking_area_on_map.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newfile.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23428">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/audi/audo_1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/benz/audo_1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CompCars/sv_separate_day_night.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CompCars/CompCars_label_mapping_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1631">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CompCars/sv_CompCars_label_mappding_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CompCars/sv_Pickup_by_modelname.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/separate_two_file_types.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newfile.pbtxt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/make_labelmap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/define_two_linear_graph.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
