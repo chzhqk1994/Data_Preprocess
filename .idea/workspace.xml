@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f01ccb0b-83e7-44bb-b1cf-fd84dc7807fd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Data_Preprocess.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Data_Preprocess.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/make_labelmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/make_label/make_labelmap.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,21 +31,22 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fcw_vehicle_detection" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/make_label" />
-      <recent name="C:\Users\qisens-n_hyunwoo\Desktop\project\Data_Preprocess\CompCar_label" />
-      <recent name="C:\Users\qisens-n_hyunwoo\Desktop\project\Data_Preprocess\CompCar_lable" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images/jeep" />
       <recent name="$PROJECT_DIR$/images/hyundai" />
       <recent name="$PROJECT_DIR$/images/benz" />
       <recent name="$PROJECT_DIR$/images/audi" />
       <recent name="$PROJECT_DIR$/CompCar_label" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resize_image_and_update_annotations" />
+      <recent name="$PROJECT_DIR$/make_label" />
+      <recent name="C:\Users\qisens-n_hyunwoo\Desktop\project\Data_Preprocess\CompCar_label" />
+      <recent name="C:\Users\qisens-n_hyunwoo\Desktop\project\Data_Preprocess\CompCar_lable" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -63,50 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.resize_dataset">
-    <configuration name="make_label_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Data_Preprocess" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/make_label/make_xml_file_hardcoding.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="make_labelmap" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Data_Preprocess" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/make_label/make_labelmap.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.soup">
     <configuration name="make_xml_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Data_Preprocess" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,6 +83,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="modify_xml" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Data_Preprocess" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modify_xml.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="resize_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Data_Preprocess" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,7 +116,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/resize_dataset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/resize_image_and_update_annotations/resize_images_and_annotations.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="soup" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Data_Preprocess" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/resize_image_and_update_annotations/update_one_annotaion_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,19 +168,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.make_labelmap" />
-      <item itemvalue="Python.make_label_file" />
       <item itemvalue="Python.make_xml_file" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.resize_dataset" />
+      <item itemvalue="Python.modify_xml" />
+      <item itemvalue="Python.soup" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.soup" />
         <item itemvalue="Python.resize_dataset" />
+        <item itemvalue="Python.modify_xml" />
         <item itemvalue="Python.make_xml_file" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.make_label_file" />
-        <item itemvalue="Python.make_labelmap" />
       </list>
     </recent_temporary>
   </component>
